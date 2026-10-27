@@ -1,0 +1,15 @@
+INSTALLATION RAPIDE
+
+SERVEUR (une seule fois)
+- Déployer le dépôt avec le fichier render.yaml dans Render.
+- Saisir ADMIN_EMAIL et ADMIN_PASSWORD quand Render le demande.
+- Vérifier https://VOTRE-DOMAINE/api/health.
+- Importer l'ancienne base SQLite avec migrate_local_data.py avant de commencer les nouvelles opérations.
+
+APPLICATION WINDOWS
+- Sur Windows, double-cliquer sur build_exe.bat.
+- Copier tout le dossier dist\The Printing Yassine sur chaque PC.
+- Ouvrir The Printing Yassine.exe et entrer l'adresse HTTPS du serveur au premier lancement.
+- Chaque employé se connecte avec son propre e-mail et mot de passe.
+
+Consultez README_CENTRAL.md pour les commandes et les précautions de migration.
